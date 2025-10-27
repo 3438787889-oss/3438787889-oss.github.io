@@ -1,0 +1,24 @@
+html { font-family: "Georgia", "Times New Roman", serif; }
+body { background: #f6f7fb; margin: 0; }
+.container { max-width: 900px; padding: 1.25rem; margin: 0 auto; background: #fff; }
+
+.nav { display: flex; gap: 1rem; list-style: none; padding: .5rem 1rem; margin: 0; }
+.nav a { text-decoration: none; }
+.nav a[aria-current="page"] { font-weight: 700; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+.grid img { width: 100%; height: auto; display: block; border-radius: .5rem; }
+
+.accent { color: #2d4cc8; }
+.highlight { background: #fff4c2; padding: 0 .25rem; }
+.lead { font-size: 1.125rem; line-height: 1.7; }
+.small { font-size: .9rem; color: #666; }
+.big { font-size: 1.1rem; font-weight: 600; }
+.note { font-style: italic; }
+
+figure { margin: 0; }
+figcaption { margin-top: .25rem; }

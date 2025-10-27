@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+<head>
+  <meta charset="utf-8" />
+  <title>LIS351 Project – Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="container">
+  <h1>LIS351 Major Project 1</h1>
+  <h2 class="accent">Hand-coded HTML &amp; CSS Website</h2>
 
+  <nav aria-label="Main">
+    <ul class="nav">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="favorites.html">Favorites</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-	<!--- Code above this line will not be displayed on the browser --> 
+<main class="container">
+  <p class="lead">Welcome! This site is <strong>hand-coded</strong> for the LIS351 project. 
+    It demonstrates headings, lists, images, accessible alt text, navigation, and external CSS.</p>
 
-	<body>
+  <section>
+    <h3>What’s on this site?</h3>
+    <ul>
+      <li><span class="highlight">About</span> – a short intro with a description list</li>
+      <li><span class="highlight">Favorites</span> – an unordered list + an external link</li>
+      <li><span class="highlight">Gallery</span> – a unique grid layout with images</li>
+      <li><span class="highlight">Contact</span> – simple info and styled text</li>
+    </ul>
+  </section>
 
-		<p> Hello world!<br>My name is Muyan Yu</p>
+  <section>
+    <h3>External resource</h3>
+    <p>Learn more about web accessibility at 
+      <a href="https://webaim.org/" target="_blank" rel="noopener">WebAIM (accessibility resource)</a>.
+    </p>
+  </section>
+</main>
 
-	</body>
-
+<footer class="container small">© 2025 Your Name</footer>
+</body>
 </html>
+
